@@ -72,6 +72,11 @@ p {
     color: #ffffff;
 }
 
+.rate:focus{
+    background-color: #f87619;
+    color: #ffffff;
+}
+
 #submit-btn {
     width: 100%;
     padding: 10px;
@@ -98,7 +103,7 @@ p {
     margin: auto;
 }
 
-.selected {
+#selected {
     display: inline-block;
     margin: 15px 0px 0px 0px;
     padding: 10px;
