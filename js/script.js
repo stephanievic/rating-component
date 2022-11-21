@@ -15,9 +15,9 @@ function showThanksState () {
     ratingScreen.setAttribute ("class", "hide");
     thanksScreen.removeAttribute ("class", "hide");
 
-    let youSelected = document.getElementById ("selected");
+    let selected = document.getElementById ("selected");
 
-    youSelected.textContent = "You selected " + rateValue + " out of 5";
+    selected.textContent = "You selected " + rateValue + " out of 5";
 }
 
 submit.addEventListener('click', (e) => {showThanksState()});
