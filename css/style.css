@@ -54,7 +54,6 @@ p {
     margin-bottom: 10px;
     display: flex;
     justify-content: space-around;
-
 }
 
 .rate {
@@ -114,4 +113,25 @@ p {
 
 .hide{
     display: none;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    section {
+        height: 37vh;
+        width: 80vw;
+    }
+
+    #rates {
+        padding: 10px 0px 10px 0px;
+        margin-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    #submit-btn {
+        width: 80%;
+        margin-left: 9%;
+    }
+    
 }
