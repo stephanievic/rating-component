@@ -21,15 +21,13 @@ body{
 /* essa estilização da section serve para as 2 */
 section {
     background-color: #212730;
-    height: 55vh;
     width: 27vw;
     padding: 30px;
     border-radius: 15px;
     
 }
 
-/*estilização da tela de aaliação */
-
+/*estilização da tela de avaliação */
 #icon-star {
     background-color: #333b49a2;
     display: flex;
@@ -115,11 +113,9 @@ p {
     display: none;
 }
 
-
 @media screen and (max-width: 1024px) {
 
     section {
-        height: 37vh;
         width: 80vw;
     }
 
@@ -133,5 +129,4 @@ p {
         width: 80%;
         margin-left: 9%;
     }
-    
 }
