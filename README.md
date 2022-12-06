@@ -11,7 +11,7 @@ Foi utilizado HTML, CSS e JavaScript puro. No CSS, usei media query para deixar 
 
 Para ver o projeto, basta acessar <a href="https://stephanievic.github.io/rating-component/">este link </a>
 
-<div style = "display= inline_block">
-  <img align = "center" width="30%" src = "https://user-images.githubusercontent.com/109833971/206028300-91425506-6e31-4d71-870b-42fd040ad715.png">
-  <img align = "center" width="30%" src = "https://user-images.githubusercontent.com/109833971/206028381-ccc1ca2f-6040-4533-8006-ad7f6bcf12de.png">
+<div style = "display= inline_block align = "center"">
+  <img width="40%" src = "https://user-images.githubusercontent.com/109833971/206028300-91425506-6e31-4d71-870b-42fd040ad715.png">
+  <img  width="40%" src = "https://user-images.githubusercontent.com/109833971/206028381-ccc1ca2f-6040-4533-8006-ad7f6bcf12de.png">
 </div>
