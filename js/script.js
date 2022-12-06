@@ -5,6 +5,7 @@ let rateValue;
 ratesBtns.forEach (function (btn) {
     btn.addEventListener ("click", (e) => { 
         rateValue = e.currentTarget.value;
+        submit.addEventListener('click', (e) => {showThanksState()});
     })
 })
 
@@ -19,6 +20,4 @@ function showThanksState () {
 
     selected.textContent = "You selected " + rateValue + " out of 5";
 }
-
-submit.addEventListener('click', (e) => {showThanksState()});
 
